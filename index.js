@@ -48,7 +48,7 @@ const generatePDF = async (name) => {
     y: 270,
     size: 58,
     font: SanChezFont,
-    color: rgb(0.2, 0.84, 0.67),
+    color: rgb(0, 0, 0),
   });
 
   // Serialize the PDFDocument to bytes (a Uint8Array)
@@ -62,7 +62,7 @@ const generatePDF = async (name) => {
 
   var file = new File(
     [pdfBytes],
-    "Padhega India Subscription Certificate.pdf",
+    "CrackDSA_Participation.pdf",
     {
       type: "application/pdf;charset=utf-8",
     }
